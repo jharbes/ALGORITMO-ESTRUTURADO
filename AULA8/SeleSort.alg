@@ -1,0 +1,31 @@
+Algoritmo "SeleShort"
+
+Var
+// Seção de Declarações das variáveis 
+vet:vetor[0..5] de inteiro
+n, i,j,min,aux:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+n<-6
+para i de 0 ate n-1 passo 1 faca
+   leia(vet[i])
+fimpara
+para i de 0 ate n-1 passo 1 faca
+     min<- i
+     para j de i+1 ate n-1 passo 1 faca
+          se vet[j]< vet[min] entao
+             min<-j
+          fimse
+     fimpara
+     se (vet[i]<> vet[min]) entao
+        aux<-vet[i]
+        vet[i]<-vet[min]
+        vet[min]<-aux
+     fimse
+     
+fimpara
+para i de 0 ate n-1 passo 1 faca
+   Escreval(vet[i])
+fimpara
+Fimalgoritmo
