@@ -1,3 +1,5 @@
+<img src="cefet-logo1.png" align="right" width="150">
+
 # ALGORITMO-ESTRUTURADO
 
 Estudo de algoritmos com uso do Visualg - Sistemas de Informação - Cefet/RJ
